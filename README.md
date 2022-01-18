@@ -1,6 +1,6 @@
 # PY3109: Observational Astrophysics
 
-[![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mkenne15/PY3109/main)
+[![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mkenne15/PY3109/master)
 
 **Module Objective**: To provide students with an overview of observational astrophysics. 
 
