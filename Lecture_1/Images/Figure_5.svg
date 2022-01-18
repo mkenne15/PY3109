@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="212.73088mm"
+   height="47.723766mm"
+   viewBox="0 0 212.73088 47.723765"
+   version="1.1"
+   id="svg8"
+   inkscape:export-filename="/home/kennedy/Teaching/PY3109/Lecture_1/Images/Figure_5.png"
+   inkscape:export-xdpi="119.21942"
+   inkscape:export-ydpi="119.21942"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="Figure_5.svg"
+   style="enable-background:new">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path928"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4731"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5462"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5460"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4728"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4713"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5226"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5224"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5072"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5070"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5026"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5024"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <linearGradient
+       id="linearGradient4557"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4555" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter984">
+      <feBlend
+         inkscape:collect="always"
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend986" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter984-6">
+      <feBlend
+         inkscape:collect="always"
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend986-1" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter984-6-9">
+      <feBlend
+         inkscape:collect="always"
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend986-1-4" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter984-0">
+      <feBlend
+         inkscape:collect="always"
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend986-4" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter984-6-9-4">
+      <feBlend
+         inkscape:collect="always"
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend986-1-4-4" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="328.50608"
+     inkscape:cy="50.30982"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer7"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Layer 2">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.165;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.33, 0.16500000000000001;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect1952"
+       width="213.09399"
+       height="48.268875"
+       x="0"
+       y="-0.35802135" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline;opacity:1;filter:url(#filter984)"
+     transform="translate(-12.12756,-28.378278)">
+    <ellipse
+       id="path3729"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
+       cx="49.463123"
+       cy="53.982204"
+       rx="19.60799"
+       ry="18.142857" />
+    <ellipse
+       id="path3729-5"
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-opacity:1;filter:url(#filter984);enable-background:new"
+       cx="74.60894"
+       cy="69.071426"
+       rx="74.10894"
+       ry="68.571426"
+       transform="matrix(0.15817949,0,0,0.16020705,37.637433,42.820367)" />
+    <ellipse
+       id="path3729-55"
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1;filter:url(#filter984-6);enable-background:new"
+       cx="96.444992"
+       cy="53.859364"
+       rx="19.60799"
+       ry="18.142857" />
+    <ellipse
+       id="path3729-5-4"
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-opacity:1;filter:url(#filter984-6);enable-background:new"
+       cx="74.60894"
+       cy="69.071426"
+       rx="74.10894"
+       ry="68.571426"
+       transform="matrix(0.15817949,0,0,0.16020705,84.619303,42.697528)" />
+    <ellipse
+       style="display:inline;opacity:1;fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:0.28892481;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter984-6);enable-background:new"
+       id="path887-7"
+       cx="77.109062"
+       cy="57.28455"
+       rx="0.55085009"
+       ry="0.54700977" />
+    <ellipse
+       style="display:inline;opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.18097802;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter984-6);enable-background:new"
+       id="path1210-6"
+       cx="96.374138"
+       cy="53.646328"
+       rx="1.6322646"
+       ry="1.5621065" />
+    <ellipse
+       id="path3731-2-9-5"
+       style="display:inline;opacity:1;fill:#8080e9;fill-opacity:1;stroke:#000000;stroke-width:0.40892193;stroke-opacity:1;filter:url(#filter984-6);enable-background:new"
+       cx="132.89502"
+       cy="81.589264"
+       rx="4.1705389"
+       ry="4.1526818"
+       transform="matrix(0.26458333,0,0,0.26458333,72.915405,32.087938)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;enable-background:new"
+       x="104.17413"
+       y="52.893536"
+       id="text1197-6"><tspan
+         sodipodi:role="line"
+         id="tspan1195-9"
+         x="104.17413"
+         y="52.893536"
+         style="font-size:1.05833328px;stroke-width:0.26458332">Earth</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;enable-background:new"
+       x="96.879784"
+       y="51.818821"
+       id="text1197-3-1-9-3"><tspan
+         sodipodi:role="line"
+         x="96.879784"
+         y="51.818821"
+         style="font-size:1.05833328px;stroke-width:0.26458332"
+         id="tspan1366-7">Sun</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;enable-background:new"
+       x="73.168564"
+       y="56.858761"
+       id="text1197-3-4"><tspan
+         sodipodi:role="line"
+         x="73.168564"
+         y="56.858761"
+         style="font-size:1.05833328px;stroke-width:0.26458332"
+         id="tspan1147-5">Mars</tspan></text>
+    <ellipse
+       id="path3729-55-9"
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1;filter:url(#filter984-6-9);enable-background:new"
+       cx="140.29968"
+       cy="53.974968"
+       rx="19.60799"
+       ry="18.142857" />
+    <ellipse
+       id="path3729-5-4-0"
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-opacity:1;filter:url(#filter984-6-9);enable-background:new"
+       cx="74.60894"
+       cy="69.071426"
+       rx="74.10894"
+       ry="68.571426"
+       transform="matrix(0.15817949,0,0,0.16020705,128.47399,42.81312)" />
+    <ellipse
+       style="display:inline;opacity:1;fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:0.28892481;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter984-6-9);enable-background:new"
+       id="path887-7-9"
+       cx="159.8575"
+       cy="53.695992"
+       rx="0.55085009"
+       ry="0.54700977" />
+    <ellipse
+       style="display:inline;opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.18097802;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter984-6-9);enable-background:new"
+       id="path1210-6-1"
+       cx="140.22882"
+       cy="53.761925"
+       rx="1.6322646"
+       ry="1.5621065" />
+    <ellipse
+       id="path3731-2-9-5-7"
+       style="display:inline;opacity:1;fill:#8080e9;fill-opacity:1;stroke:#000000;stroke-width:0.40892193;stroke-opacity:1;filter:url(#filter984-6-9);enable-background:new"
+       cx="132.89502"
+       cy="83.463051"
+       rx="4.1705389"
+       ry="4.1526818"
+       transform="matrix(0.26458333,0,0,0.26458333,115.71176,36.53641)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994;filter:url(#filter984);enable-background:new"
+       x="118.14323"
+       y="80.50914"
+       id="text1197-6-7"
+       transform="matrix(0.26458333,0,0,0.26458333,115.44717,35.54422)"><tspan
+         sodipodi:role="line"
+         id="tspan1195-9-1"
+         x="118.14323"
+         y="80.50914"
+         style="font-size:3.99999976px;stroke-width:0.99999994">Earth</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994;filter:url(#filter984);enable-background:new"
+       x="90.574036"
+       y="76.44722"
+       id="text1197-3-1-9-3-1"
+       transform="matrix(0.26458333,0,0,0.26458333,116.77009,31.70776)"><tspan
+         sodipodi:role="line"
+         x="90.574036"
+         y="76.44722"
+         style="font-size:3.99999976px;stroke-width:0.99999994"
+         id="tspan1366-7-5">Sun</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994;filter:url(#filter984);enable-background:new"
+       x="0.95682609"
+       y="95.495811"
+       id="text1197-3-4-9"
+       transform="matrix(0.26458333,0,0,0.26458333,156.25915,27.1437)"><tspan
+         sodipodi:role="line"
+         x="0.95682609"
+         y="95.495811"
+         style="font-size:3.99999976px;stroke-width:0.99999994"
+         id="tspan1147-5-7">Mars</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;enable-background:new"
+       x="124.41021"
+       y="34.520329"
+       id="text1155-5-7"><tspan
+         sodipodi:role="line"
+         id="tspan1153-4-6"
+         x="124.41021"
+         y="34.520329"
+         style="font-size:2.11666656px;stroke-width:0.26458332">After 687 days (Martin Year, P)</tspan></text>
+    <ellipse
+       id="path3729-55-9-4"
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1;filter:url(#filter984-6-9-4);enable-background:new"
+       cx="186.24709"
+       cy="53.550358"
+       rx="19.60799"
+       ry="18.142857" />
+    <ellipse
+       id="path3729-5-4-0-7"
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-opacity:1;filter:url(#filter984-6-9-4);enable-background:new"
+       cx="74.60894"
+       cy="69.071426"
+       rx="74.10894"
+       ry="68.571426"
+       transform="matrix(0.15817949,0,0,0.16020705,174.4214,42.38851)" />
+    <ellipse
+       style="display:inline;opacity:1;fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:0.28892481;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter984-6-9-4);enable-background:new"
+       id="path887-7-9-6"
+       cx="204.49852"
+       cy="46.888309"
+       rx="0.55085009"
+       ry="0.54700977" />
+    <ellipse
+       style="display:inline;opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.18097802;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter984-6-9-4);enable-background:new"
+       id="path1210-6-1-3"
+       cx="186.17622"
+       cy="53.337315"
+       rx="1.6322646"
+       ry="1.5621065" />
+    <ellipse
+       id="path3731-2-9-5-7-1"
+       style="display:inline;opacity:1;fill:#8080e9;fill-opacity:1;stroke:#000000;stroke-width:0.40892193;stroke-opacity:1;filter:url(#filter984-6-9-4);enable-background:new"
+       cx="144.57303"
+       cy="70.503448"
+       rx="4.1705389"
+       ry="4.1526818"
+       transform="matrix(0.26458333,0,0,0.26458333,158.76781,30.941734)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994;filter:url(#filter984-0);enable-background:new"
+       x="125.82122"
+       y="64.799553"
+       id="text1197-6-7-7"
+       transform="matrix(0.26458333,0,0,0.26458333,158.76781,30.941734)"><tspan
+         sodipodi:role="line"
+         id="tspan1195-9-1-5"
+         x="125.82122"
+         y="64.799553"
+         style="font-size:3.99999976px;stroke-width:0.99999994">Earth</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994;filter:url(#filter984-0);enable-background:new"
+       x="105.50204"
+       y="77.737602"
+       id="text1197-3-1-9-3-1-9"
+       transform="matrix(0.26458333,0,0,0.26458333,158.76781,30.941734)"><tspan
+         sodipodi:role="line"
+         x="105.50204"
+         y="77.737602"
+         style="font-size:3.99999976px;stroke-width:0.99999994"
+         id="tspan1366-7-5-6">Sun</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994;filter:url(#filter984-0);enable-background:new"
+       x="158.88483"
+       y="59.286217"
+       id="text1197-3-4-9-2"
+       transform="matrix(0.26458333,0,0,0.26458333,158.76781,30.941734)"><tspan
+         sodipodi:role="line"
+         x="158.88483"
+         y="59.286217"
+         style="font-size:3.99999976px;stroke-width:0.99999994"
+         id="tspan1147-5-7-1">Mars</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;filter:url(#filter984-0);enable-background:new"
+       x="170.48991"
+       y="33.963428"
+       id="text1155-5-7-7"
+       inkscape:export-xdpi="588.98022"
+       inkscape:export-ydpi="588.98022"><tspan
+         sodipodi:role="line"
+         id="tspan1153-4-6-8"
+         x="170.48991"
+         y="33.963428"
+         style="font-size:2.11666656px;stroke-width:0.26458332">After 778 days (Synodic Period, S)</tspan></text>
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.14837997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.29675992, 0.14837996;stroke-dashoffset:0;stroke-opacity:1;enable-background:new"
+       d="M 186.00083,53.648833 207.13086,45.94464"
+       id="path1151-7"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Lines"
+     transform="translate(13.805976,3.8324997)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Planet"
+     transform="translate(21.804778,5.3330381)">
+    <ellipse
+       style="display:inline;opacity:1;fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:0.28892481;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter984);enable-background:new"
+       id="path887"
+       cx="35.154751"
+       cy="19.859617"
+       rx="0.55085009"
+       ry="0.54700977" />
+    <ellipse
+       transform="translate(-33.932338,-33.711316)"
+       style="display:inline;opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.18097802;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter984);enable-background:new"
+       id="path1210"
+       cx="49.392265"
+       cy="53.769169"
+       rx="1.6322646"
+       ry="1.5621065" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Earth"
+     transform="translate(21.758006,9.3867551)">
+    <ellipse
+       id="path3731-2-9"
+       style="display:inline;opacity:1;fill:#8080e9;fill-opacity:1;stroke:#000000;stroke-width:0.40892193;stroke-opacity:1;filter:url(#filter984);enable-background:new"
+       cx="4.375"
+       cy="4.3571429"
+       rx="4.1705389"
+       ry="4.1526818"
+       transform="matrix(0.26458333,0,0,0.26458333,26.052224,14.880077)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Stars"
+     transform="translate(13.805976,3.8324997)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Text"
+     transform="translate(21.758006,9.3867551)"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;enable-background:new"
+       x="23.3067"
+       y="15.251341"
+       id="text1197"><tspan
+         sodipodi:role="line"
+         id="tspan1195"
+         x="23.3067"
+         y="15.251341"
+         style="font-size:1.05833328px;stroke-width:0.26458332">Earth</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;enable-background:new"
+       x="16.012348"
+       y="14.17663"
+       id="text1197-3-1-9"><tspan
+         sodipodi:role="line"
+         x="16.012348"
+         y="14.17663"
+         style="font-size:1.05833328px;stroke-width:0.26458332"
+         id="tspan1366">Sun</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;enable-background:new"
+       x="32.054771"
+       y="15.049389"
+       id="text1197-3"><tspan
+         sodipodi:role="line"
+         x="32.054771"
+         y="15.049389"
+         style="font-size:1.05833328px;stroke-width:0.26458332"
+         id="tspan1147">Mars</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.14837997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.29675992, 0.14837996;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 15.52284,16.0776 38.011122,15.745619"
+       id="path1151"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="2.6237524"
+       y="-2.7745883"
+       id="text1155"><tspan
+         sodipodi:role="line"
+         id="tspan1153"
+         x="2.6237524"
+         y="-2.7745883"
+         style="stroke-width:0.26458332">Reference Time</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;enable-background:new"
+       x="46.537666"
+       y="-3.889461"
+       id="text1155-5"><tspan
+         sodipodi:role="line"
+         id="tspan1153-4"
+         x="46.537666"
+         y="-3.889461"
+         style="font-size:2.11666656px;stroke-width:0.26458332">After 365.25 days (1 year, P<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan1949">🜨</tspan>)</tspan></text>
+  </g>
+</svg>
