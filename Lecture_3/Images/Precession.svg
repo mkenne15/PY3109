@@ -15,9 +15,9 @@
    viewBox="0 0 94.860473 109.18055"
    version="1.1"
    id="svg8"
-   inkscape:export-filename="/home/kennedy/Teaching/PY3109/Lecture_3/Images/Figure_3.png"
-   inkscape:export-xdpi="193.00999"
-   inkscape:export-ydpi="193.00999"
+   inkscape:export-filename="/home/kennedy/Teaching/PY3109/Lecture_3/Images/Precession.png"
+   inkscape:export-xdpi="139.68927"
+   inkscape:export-ydpi="139.68927"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="Precession.svg"
    style="enable-background:new">
@@ -175,7 +175,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.9999999"
-     inkscape:cx="98.633331"
+     inkscape:cx="7.3833264"
      inkscape:cy="207.94078"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
@@ -194,7 +194,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
