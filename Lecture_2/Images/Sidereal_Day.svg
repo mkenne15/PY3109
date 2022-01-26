@@ -15,9 +15,9 @@
    viewBox="0 0 33.062862 76.716504"
    version="1.1"
    id="svg8"
-   inkscape:export-filename="/home/kennedy/Teaching/PY3109/Lecture_1/Images/Figure_5.png"
-   inkscape:export-xdpi="119.21942"
-   inkscape:export-ydpi="119.21942"
+   inkscape:export-filename="/home/kennedy/Teaching/PY3109/Lecture_2/Images/Sidereal_Day.png"
+   inkscape:export-xdpi="132.13617"
+   inkscape:export-ydpi="132.13617"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="Sidereal_Day.svg"
    style="enable-background:new">
@@ -199,7 +199,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
