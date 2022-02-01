@@ -201,6 +201,21 @@
          style="fill:#181818;fill-opacity:1;fill-rule:evenodd;stroke:#181818;stroke-width:1.00000003pt;stroke-opacity:1"
          transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
     </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1288-3-0-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path859-6-9-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#181818;fill-opacity:1;fill-rule:evenodd;stroke:#181818;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -209,9 +224,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="250.25707"
-     inkscape:cy="99.50691"
+     inkscape:zoom="2.8"
+     inkscape:cx="169.20813"
+     inkscape:cy="65.23868"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -307,22 +322,22 @@
          x="13.188589"
          y="271.22607"
          style="font-size:2.46944427px;line-height:1;stroke-width:0.26458332"
-         id="tspan10356">axis of the Earth. The other rotates into</tspan><tspan
+         id="tspan10360">axis of the Earth. Once pointed at </tspan><tspan
          sodipodi:role="line"
          x="13.188589"
          y="274.75385"
          style="font-size:2.46944427px;line-height:1;stroke-width:0.26458332"
-         id="tspan10360">and out of the screen. Once pointed at </tspan><tspan
+         id="tspan27045">a star (rotation about A),</tspan><tspan
          sodipodi:role="line"
          x="13.188589"
          y="278.28165"
          style="font-size:2.46944427px;line-height:1;stroke-width:0.26458332"
-         id="tspan27045">a star, needs to only rotate about one</tspan><tspan
+         id="tspan1243">needs to only rotate about one</tspan><tspan
          sodipodi:role="line"
          x="13.188589"
          y="281.80942"
          style="font-size:2.46944427px;line-height:1;stroke-width:0.26458332"
-         id="tspan27047">axis to track it.</tspan></text>
+         id="tspan27047">axis to track it (rotation about B).</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 93.161903,245.92174 0.472471,17.23284"
@@ -400,5 +415,40 @@
        d="m 250.55049,-85.741213 a 2.1210001,2.1210001 0 0 1 -2.48045,1.125882 2.1210001,2.1210001 0 0 1 -1.54323,-2.244689 2.1210001,2.1210001 0 0 1 1.93943,-1.9128 2.1210001,2.1210001 0 0 1 2.22314,1.57412"
        transform="rotate(88.508642)"
        sodipodi:open="true" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#181818;stroke-width:0.26499999;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1288-3-0-3);paint-order:fill markers stroke"
+       id="path842-5-3-7"
+       sodipodi:type="arc"
+       sodipodi:cx="247.44891"
+       sodipodi:cy="-23.985147"
+       sodipodi:rx="2.1210001"
+       sodipodi:ry="2.1210001"
+       sodipodi:start="0.44739973"
+       sodipodi:end="6.0258062"
+       d="m 249.36115,-23.067555 a 2.1210001,2.1210001 0 0 1 -2.48044,1.125882 2.1210001,2.1210001 0 0 1 -1.54323,-2.244688 2.1210001,2.1210001 0 0 1 1.93943,-1.912801 2.1210001,2.1210001 0 0 1 2.22314,1.574121"
+       transform="rotate(88.508642)"
+       sodipodi:open="true" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="29.687733"
+       y="247.65913"
+       id="text1247"><tspan
+         sodipodi:role="line"
+         id="tspan1245"
+         x="29.687733"
+         y="247.65913"
+         style="font-size:2.11666679px;stroke-width:0.26458332">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="41.520344"
+       y="257.9603"
+       id="text1247-5"><tspan
+         sodipodi:role="line"
+         id="tspan1245-3"
+         x="41.520344"
+         y="257.9603"
+         style="font-size:2.11666703px;stroke-width:0.26458332">B</tspan></text>
   </g>
 </svg>
