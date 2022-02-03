@@ -350,7 +350,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
      inkscape:cx="142.08033"
-     inkscape:cy="33.402458"
+     inkscape:cy="76.2596"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -511,20 +511,20 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#059609;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2775);marker-end:url(#marker2778)"
-       d="M 30.934973,264.60549 51.983522,251.80155"
+       d="M 24.367637,254.54187 45.416186,241.73793"
        id="path2510"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="42.005821"
-       y="260.50055"
+       x="29.910583"
+       y="247.27139"
        id="text2782"><tspan
          sodipodi:role="line"
          id="tspan2780"
-         x="42.005821"
-         y="260.50055"
-         style="stroke-width:0.26458332">Δ</tspan></text>
+         x="29.910583"
+         y="247.27139"
+         style="stroke-width:0.26458332">ct</tspan></text>
     <path
        style="fill:none;stroke:#7c7c7c;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.26458332, 0.52916662999999997;stroke-dashoffset:0"
        d="M 28.84693,255.45151 28.613069,273.0913"
