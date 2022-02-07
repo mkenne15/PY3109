@@ -17,9 +17,9 @@
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="Interferometry.svg"
-   inkscape:export-filename="/home/kennedy/Teaching/PY3109/Lecture_5/Images/Telescope_Designs.png"
-   inkscape:export-xdpi="108.14221"
-   inkscape:export-ydpi="108.14221">
+   inkscape:export-filename="/home/kennedy/Teaching/PY3109/Lecture_6/Images/Interferometry.png"
+   inkscape:export-xdpi="108.142"
+   inkscape:export-ydpi="108.142">
   <defs
      id="defs2">
     <marker
@@ -348,9 +348,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="142.08033"
-     inkscape:cy="76.2596"
+     inkscape:zoom="1.979899"
+     inkscape:cx="218.68769"
+     inkscape:cy="81.692172"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -368,7 +368,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
