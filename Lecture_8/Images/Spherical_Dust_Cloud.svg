@@ -16,9 +16,9 @@
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="Spherical_Dust_Cloud.svg"
-   inkscape:export-filename="/home/kennedy/Teaching/PY3109/Lecture_5/Images/Telescope_Designs.png"
-   inkscape:export-xdpi="108.14221"
-   inkscape:export-ydpi="108.14221">
+   inkscape:export-filename="/home/kennedy/Teaching/PY3109/Lecture_8/Images/Spherical_Dust_Cloud.png"
+   inkscape:export-xdpi="120.75496"
+   inkscape:export-ydpi="120.75496">
   <defs
      id="defs2">
     <marker
@@ -304,7 +304,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

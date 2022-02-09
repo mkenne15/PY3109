@@ -16,9 +16,9 @@
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="Thin_Shell.svg"
-   inkscape:export-filename="/home/kennedy/Teaching/PY3109/Lecture_5/Images/Telescope_Designs.png"
-   inkscape:export-xdpi="108.14221"
-   inkscape:export-ydpi="108.14221">
+   inkscape:export-filename="/home/kennedy/Teaching/PY3109/Lecture_8/Images/Thin_Shell.png"
+   inkscape:export-xdpi="120.75496"
+   inkscape:export-ydpi="120.75496">
   <defs
      id="defs2">
     <marker
@@ -298,9 +298,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="191.51423"
-     inkscape:cy="101.48226"
+     inkscape:zoom="1.979899"
+     inkscape:cx="33.152041"
+     inkscape:cy="111.26608"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -318,7 +318,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
