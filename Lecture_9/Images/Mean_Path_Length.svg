@@ -16,7 +16,7 @@
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="Mean_Path_Length.svg"
-   inkscape:export-filename="/home/kennedy/Teaching/PY3109/Lecture_5/Images/Telescope_Designs.png"
+   inkscape:export-filename="/home/kennedy/Teaching/PY3109/Lecture_9/Images/Mean_Path_Length.png"
    inkscape:export-xdpi="108.14221"
    inkscape:export-ydpi="108.14221"
    style="enable-background:new">
@@ -347,9 +347,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="117.34457"
-     inkscape:cy="135.9353"
+     inkscape:zoom="11.2"
+     inkscape:cx="190.84915"
+     inkscape:cy="98.441487"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -521,5 +521,49 @@
        d="m 77.547475,235.71987 4.409947,7.04924"
        id="path8172"
        inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="74.22908"
+       y="234.48514"
+       id="text8510"><tspan
+         sodipodi:role="line"
+         id="tspan8508"
+         x="74.22908"
+         y="234.48514"
+         style="stroke-width:0.26458332">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;enable-background:new"
+       x="84.415123"
+       y="228.02252"
+       id="text8510-0"><tspan
+         sodipodi:role="line"
+         id="tspan8508-2"
+         x="84.415123"
+         y="228.02252"
+         style="stroke-width:0.26458332">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="94.592552"
+       y="231.72119"
+       id="text8532"><tspan
+         sodipodi:role="line"
+         id="tspan8530"
+         x="94.592552"
+         y="231.72119"
+         style="stroke-width:0.26458332">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="84.694298"
+       y="236.63489"
+       id="text8536"><tspan
+         sodipodi:role="line"
+         id="tspan8534"
+         x="84.694298"
+         y="236.63489"
+         style="stroke-width:0.26458332">4</tspan></text>
   </g>
 </svg>
