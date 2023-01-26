@@ -15,11 +15,11 @@
    viewBox="0 0 85.249778 45.294165"
    version="1.1"
    id="svg8"
-   inkscape:export-filename="/home/kennedy/Teaching/PY3109/Lecture_4/Images/Figure_3.png"
+   inkscape:export-filename="/home/kennedy/Teaching/PY3109/Lecture_Notes/Lecture_04/Figures/Parallax.png"
    inkscape:export-xdpi="215.83331"
    inkscape:export-ydpi="215.83331"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="Figure_3.svg"
+   sodipodi:docname="Parallax.svg"
    style="enable-background:new">
   <defs
      id="defs2">
@@ -244,14 +244,14 @@
      inkscape:pageshadow="2"
      inkscape:zoom="4"
      inkscape:cx="156.48136"
-     inkscape:cy="89.035718"
+     inkscape:cy="49.035718"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:snap-global="false"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
-     inkscape:window-x="0"
+     inkscape:window-x="1920"
      inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
@@ -549,77 +549,6 @@
          y="14.17663"
          style="font-size:1.05833328px;stroke-width:0.26458332"
          id="tspan1366">Sun</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;enable-background:new"
-       x="65.932632"
-       y="30.025465"
-       id="text1848-9"><tspan
-         sodipodi:role="line"
-         id="tspan1846-4"
-         x="65.932632"
-         y="30.025465"
-         style="font-size:1.76388884px;stroke-width:0.26458332">1</tspan></text>
-    <text
-       transform="translate(-33.885566,-37.765033)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;filter:url(#filter984);enable-background:new"
-       x="98.267136"
-       y="40.674267"
-       id="text1848-7-31"><tspan
-         sodipodi:role="line"
-         x="98.267136"
-         y="40.674267"
-         style="font-size:1.76388884px;stroke-width:0.26458332"
-         id="tspan1884-4">6</tspan></text>
-    <text
-       transform="translate(-33.885566,-37.765033)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;filter:url(#filter984);enable-background:new"
-       x="99.576759"
-       y="48.719082"
-       id="text1848-7-68"><tspan
-         sodipodi:role="line"
-         x="99.576759"
-         y="48.719082"
-         style="font-size:1.76388884px;stroke-width:0.26458332"
-         id="tspan1884-84">5</tspan></text>
-    <text
-       transform="translate(-33.885566,-37.765033)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;filter:url(#filter984);enable-background:new"
-       x="99.950935"
-       y="51.618954"
-       id="text1848-7-43"><tspan
-         sodipodi:role="line"
-         x="99.950935"
-         y="51.618954"
-         style="font-size:1.76388884px;stroke-width:0.26458332"
-         id="tspan1884-0">3</tspan></text>
-    <text
-       transform="translate(-33.885566,-37.765033)"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;filter:url(#filter984);enable-background:new"
-       x="99.857391"
-       y="54.612373"
-       id="text1848-7-7"><tspan
-         sodipodi:role="line"
-         x="99.857391"
-         y="54.612373"
-         style="font-size:1.76388884px;stroke-width:0.26458332"
-         id="tspan1884-8">4</tspan></text>
-    <text
-       transform="translate(-7.9520306,-5.5542554)"
-       xml:space="preserve"
-       style="enable-background:new;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="74.017403"
-       y="25.207926"
-       id="text1848-7-0"><tspan
-         sodipodi:role="line"
-         x="74.017403"
-         y="25.207926"
-         style="font-size:1.76388884px;stroke-width:0.26458332"
-         id="tspan1884-3">2</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;enable-background:new"
