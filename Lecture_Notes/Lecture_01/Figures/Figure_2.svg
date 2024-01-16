@@ -200,10 +200,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284271"
-     inkscape:cx="117.56266"
-     inkscape:cy="77.388744"
+     inkscape:cx="162.40867"
+     inkscape:cy="80.302345"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-global="false"
      inkscape:window-width="1920"
@@ -219,7 +219,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -346,12 +346,14 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Planet"
-     transform="translate(8.0664714,1.6830177)" />
+     transform="translate(8.0664714,1.6830177)"
+     style="display:inline" />
   <g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Earth"
-     transform="translate(8.0196994,5.7367346)">
+     transform="translate(8.0196994,5.7367346)"
+     style="display:inline">
     <ellipse
        id="path3731-2-9"
        style="display:inline;opacity:1;fill:#8080e9;fill-opacity:1;stroke:#000000;stroke-width:0.40892193;stroke-opacity:1;filter:url(#filter984);enable-background:new"

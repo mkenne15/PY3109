@@ -19,7 +19,7 @@
    inkscape:export-xdpi="215.83331"
    inkscape:export-ydpi="215.83331"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="Figure_1.svg"
+   sodipodi:docname="Figure_4.svg"
    style="enable-background:new">
   <defs
      id="defs2">
@@ -270,7 +270,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4"
-     inkscape:cx="149.95017"
+     inkscape:cx="104.57517"
      inkscape:cy="80.07941"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -289,7 +289,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -341,7 +341,8 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Lines"
-     transform="translate(3.1825503,1.4379372)">
+     transform="translate(3.1825503,1.4379372)"
+     style="display:inline">
     <path
        style="fill:none;stroke:#000000;stroke-width:0.16500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.165, 0.165;stroke-dashoffset:0;stroke-opacity:1"
        d="m 23.415625,32.69494 50.48176,2.226261"
@@ -444,7 +445,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Planet"
-     transform="translate(11.181353,2.9384756)">
+     transform="translate(11.181353,2.9384756)"
+     style="display:inline">
     <ellipse
        style="display:inline;opacity:1;fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:0.28892481;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter984);enable-background:new"
        id="path887"
@@ -500,7 +502,8 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Earth"
-     transform="translate(11.134581,6.9921926)">
+     transform="translate(11.134581,6.9921926)"
+     style="display:inline">
     <ellipse
        id="path3731-2-9"
        style="display:inline;opacity:1;fill:#8080e9;fill-opacity:1;stroke:#000000;stroke-width:0.40892193;stroke-opacity:1;filter:url(#filter984);enable-background:new"
@@ -554,7 +557,8 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Stars"
-     transform="translate(3.1825503,1.4379372)">
+     transform="translate(3.1825503,1.4379372)"
+     style="display:inline">
     <path
        sodipodi:type="star"
        style="display:inline;opacity:1;fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;enable-background:new"
@@ -809,7 +813,7 @@
     <text
        transform="translate(-7.9520306,-5.5542554)"
        xml:space="preserve"
-       style="enable-background:new;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;enable-background:new"
        x="74.017403"
        y="25.207926"
        id="text1848-7-0"><tspan
