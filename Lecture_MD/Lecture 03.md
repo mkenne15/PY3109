@@ -23,16 +23,16 @@ from astropy.time import Time
 from datetime import datetime
 
 #ut = Time(datetime.utcnow(), scale='utc')
-ut = Time(datetime(2025,1,21,11,0,0,0), scale='utc')
+ut = Time(datetime(2026,1,20,11,0,0,0), scale='utc')
 
 print(f"The current time is: {ut.isot}")
 print(f"The current time in JD is: {ut.jd}")
 print(f"The current time in MJD is: {ut.mjd}")
 ```
 
-The current time is: 2025-01-21T11:00:00.000
-The current time in JD is: 2460696.9583333335
-The current time in MJD is: 60696.458333333336
+The current time is: 2026-01-20T11:00:00.000
+The current time in JD is: 2461060.9583333335
+The current time in MJD is: 61060.458333333336
 # Annual Aberration
 Consider a star which is on the ecliptic, and we wish to point a telescope at this star in order to observe it. If we were in a stationary reference frame (standing on the surface of the Sun), then we would have to point our telescope at an angle of 
 

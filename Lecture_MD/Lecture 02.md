@@ -48,7 +48,7 @@ $\alpha$-Cru is (approximately) located at
 > - $\alpha$ = 12 hr 26 min
 > - $\delta$ = -63$^{o}$ 05'
 >
->Stars with an declination of $\delta< - 90^{\rm o}+52=-38$ degrees are never visible from Cork. The minimum angle $\alpha$-Cru reaches is $-63+35=-25$ degrees.
+>Stars with an declination of $\delta< - 90^{\rm o}+52=-38$ degrees are never visible from Cork. The minimum angle $\alpha$-Cru reaches is $-63+38=-25$ degrees.
 ### Right Ascension (Time)
 #### Sidereal Day
 As a species, we have defined a day as the time it takes for consecutive passes of the Sun through the same point of the sky. This takes 24 hours, and is called a Solar (civil) day. In the last lecture, we found that the relationship between the synodic period (S) and the sidereal period (P) is given by:
@@ -66,7 +66,7 @@ As we can now see, this means what we're measuring is **not** the true rotation 
 
 So a civil day (from now on, just referred to as day) lasts for 24 hours. However, the sidereal day lasts for 23 hours and 56 minutes. This means stars will rise and set 4 minutes earlier every day.  and, as stars move across the night sky, telescopes must track them at the sidereal rate.
 
-We now define the right ascension of an object ($\alpha$) as the anti-clockwise angle to $\gamma$ in previous diagrams. $\gamma$, which corresponds to an angle of $0^{\rm o}$, is taken to be the position of the Sun on the Vernal equinox, which will occur at 2025-03-20 09:01 this year. This date has always been important in religions. For example, Easter is the first Sunday after the first full moon after the Spring equinox. Irish monks played an important role in developing the "Computus", which calculated the date of Easter with respect to the equinox.
+We now define the right ascension of an object ($\alpha$) as the anti-clockwise angle to $\gamma$ in previous diagrams. $\gamma$, which corresponds to an angle of $0^{\rm o}$, is taken to be the position of the Sun on the Vernal equinox, which will occur at 2026-03-20 14:46 this year. This date has always been important in religions. For example, Easter is the first Sunday after the first full moon after the Spring equinox. Irish monks played an important role in developing the "Computus", which calculated the date of Easter with respect to the equinox.
 
 **Back of the envelope calculations**
 The sun passes through the meridian at noon on the vernal equinox. As such, any other star which lies on the meridian at noon from Greenwich has $\alpha=0$ hrs. Furthermore, roughly 12 hours later(at midnight) any star lying on the meridian as observed from Greenwich will have $\alpha=12$ hrs. This is the ideal time to observe a source with $\alpha=12$, as it is at it's closest point to the zenith, minimising the atmospheric effects which hinder observations. Note that this is not exact, since the equinox doesn't occur exactly at midday, and in reality stars with a $\alpha=12$ hrs will be overhead 11hrs 56mins later due to the differences between civil and sidereal time. But the above does in a pinch (or in an exam).
