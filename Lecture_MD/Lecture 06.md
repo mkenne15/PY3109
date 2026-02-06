@@ -1,3 +1,57 @@
+## Fraunhofer diffraction
+Recall from your optics lecture that a wave with wavelength $\lambda$ which passes through a slit of width $a$, where $a$>>$\lambda$, will produce a pattern given by:
+$$
+    I = I_0 \frac{\sin^2(\frac{\pi a \sin(\theta)}{\lambda})}{\left[\frac{\pi a \sin(\theta)}{\lambda}\right]^2}
+$$
+This is shown in the below figure. This pattern has recurring minima at $\sin\theta=\frac{m\lambda}{a}$ where m is an integer. *(Aside: The interesting thing here is to think about what the mathematical relationship between the slit (which is a boxcar function) and the intensity is. The Fourier transform of a boxcar is a sinc, and our function is a sinc$^2$. This is a branch of optics known as Fourier optics, which allows us to use Fourier methods to establish what various optical elements are doing.*
+
+![SingleSlit](Figures/Single_Slit.svg)
+
+If the slit is 2 dimensional, like the aperture of a telescope, then the pattern produced is this function rotated around its axis, and is called an Airy Disc. In this case, the difference between the minima can still be given by $\sin\theta=\frac{m\lambda}{a}$, but m is no longer integer. The first minimum occurs when $m=1.22$ (the derivation is tough and beyond the scope of this module).
+
+![AiryDisc](Figures/Airy_discs.png)
+So, if we have 2 sources in our image, they will both produce Airy Discs. In order to not have their primary peaks overlapping, we want their angular separation to be:
+$$
+\sin\theta>\frac{1.22\lambda}{a}
+$$
+or, for small angles
+$$
+\theta>\frac{1.22\lambda}{a}.
+$$
+This is the Rayleigh criteria, and is very important when considering what wavelength to observer your source at.
+
+> [!example] Example: A 10m optical telescope
+> For a 10m aperture optical telescope (observing at $\lambda=5000$Å) we find that    
+>$$
+>   \theta=\frac{1.22\times0.5\mu m}{10m}=0.01{\rm''}
+>$$
+>Again, this is much smaller than the seeing we're used because of Earth's atmosphere. As such, it makes sense to put optical telescopes into space where they can make full use of their resolution. For example, consider the HST. It's mirror is 2.5 meters in diameter so $\theta=0.05{\rm''}$.
+
+# Telescope Designs
+
+## Refractors
+The first telescopes used lenses to focus starlight. While they were dominant in astronomy from centuries, they come with certain limitations. Mainly:
+1. The refractive index of the lens is wavelength dependent, meaning bluer wavelengths would be focused at a different point then redder wavelengths (see below). This chromatic aberration can be minimised by placing the detector at the circle of least confusion (see below) or by adding corrector lenses behind the mirror - but this is expensive and requires incredibly precision.
+2. The mirrors are heavy and distort when not pointing directly upwards.
+3. Their size does not scale well. If you want a high resolution image, you must increase the focal length of your telescope - but in order to keep the telescope "fast", you also need to increase the diameter of your mirror. This means that even modest sized refractors have very long focal lengths - which means the telescopes are massive, and the domes vast chambers (also see below). For example, the largest refractor ever built (the Yerkes telescope, 1897) is a 1 meter diameter telescope with a 19.3 meter focus - but the dome required to house it is 27 meters in diameter.
+
+![Refractor](Figures/Refractor.svg)
+![[Yerkes.jpg]]
+# Reflectors
+Towards the end of the 19th century, reflecting telescopes began to become very popular due to several breakthroughs in increasing the reflectivity of mirrors and reducing the upkeep required on them. They are not without their own flaws - the chief one being that the mirror must be parabolic rather than spherical, and parabolic mirrors require incredible precision (for example, HST was sent up with a bad mirror that led to horrible spherical aberration which needed to be corrected by STS-61).
+
+![[HST.gif]]
+
+All modern telescopes used for science are reflectors - but as opposed to refractors (where you can only really have the eye piece/instruments) at the end of the tube, reflectors can have different designs and different numbers of mirrors. Below I show three of the most popular.
+
+![Telescopes](Figures/Optics_Designs.svg)
+
+1. The prime focus telescope has a single mirror which focuses light at a point close to the top of the telescope. It's relatively cheap in that you only need one mirror, but access to the instrument box is difficult (and used to lead to astronomers spending the entire night in the cage).
+2. The Newtonian uses a flat mirror close to the top of the tube to pick off the focused starlight and send it out to a focus on the side of the telescope. This is definitely better than the prime focus as it allows for *slightly* easier access to the instruments, but it leads to weight and balance issues on very large telescopes with very heavy instruments.
+3. The Cassigrian uses a small secondary mirror to send light back down through a hole in the primary mirror. This is great as the instruments are easily accessible and the telescope suffers less balance issues (but does mean you have a hole in your telescope), but the field of view isn't particularly large (and there are still issues with targets that are significantly off axis).
+![[Hale_Cage.jpg]]
+
+You can also add more mirrors to the Cassigrian design to pick off light and send it to instrument boxes on either side of the telescope. These folded Cass designs are very common on large telescopes as it means you can have multiple instruments mounted at once, and switching between them requires only moving one mirror. You can see a complicated example of a folded Cass design in this video for the [ELT](https://youtu.be/aqfLGrpOjjY). You can also combine lenses and mirrors (Schmidt-Cassegrian telescopes) or use two hyperbolic mirrors (Ritchey-Chretien reflectors).
 # Telescope Mounts
 There's one final aspect of an optical telescope which I want to cove before moving on. If you see any telescope built prior to the 1980s, the telescope is on an equatorial mount. The below is a schematic of such a mount (credit: Stuart Littlefair).
 
@@ -7,49 +61,3 @@ These mounts are tilted such that one rotational access parallel to the rotation
 However, these mounts need large, heavy counterweights to keep the telescope tube in balance, and the domes required for them are very large in order to have space for the mount, tube, and counterweight. [The Hale telescope](https://sites.astro.caltech.edu/palomar/about/telescopes/hale.html) is a 5m telescope, but requires a Dome which is 41 m tall and 42 m in diameter.
 
 A more compact mount is the Alt-Az mount. For these telescopes, one rotational axis is parallel to the Earth's surface at your observing site, while the other points directly towards the Zenith. The reason such mounts didn't become widely adopted until after the 1980's is that, in order to track a star at constant declination, the telescope must be rotated in both altitude and azimuth - and doing the conversion between changing R.A. and changing Alt/Az quickly requires a computer. Now, most research-grade telescopes are Alt-Az mounts. For example, [ESO's VLT](https://www.eso.org/public/images/potw1036a/) are 10m telescope which only need domes that are 30 m tall and 28 m in diameter.
-# Detecting light
-# CCD's (outdated, SCMOS detectors taking over!)
-The human eye has a very low quantum efficiency (QE) of about 1% (this means around 1 in every 100 photons is actually detected). At optical wavelengths, we typically use CCDs, or charged-coupled devices, for observations. This is due to their very high quantum efficiency, meaning their response is nearly linear - that is, the number of counts you observe is directly proportional to the intensity of light.
-
-They also have very high dynamic ranges - each pixel in a CCD is capable of registering up to ~65,000 counts accurately. Typically, CCD's are Si based. As a photon interacts with a given pixel, it causes excitation of an electron into a conduction band. When finished observing, the accumulation of charge within a pixel can be shifted to an adjacent pixel. As such, an image is read out pixel-by-pixel, as shown below.
-
-![CCD](Figures/CCD.svg)
-
-The expected number of photons reaching our detector over a fixed interval of time is $N$, but the arrival time of each photon is randomly distributed. This means we should get some variation in the number of photons we detect in sequential time intervals. The probability of detecting $k$ photons over a fixed time interval is then given by a Poisson distribution
-$$
-    P(k)=\frac{N^k e^{-N}}{k!}
-$$
-where $k$ is an integer (because we can't detect half a photon!) but $N$ can be non-integer. This is a probability distribution, meaning we require that
-$$
-\sum_{k=0}^{\infty}P(k,N)=1
-$$
-It is easy enough to show that for such a distribution, the standard deviation is given by $\sigma=\sqrt N$ and that the mean value for $\left<k\right>=N$. As the expected number of photons, $N$, grows (by increasing aperture size or exposure time), the standard deviation grows at a slower rate.
-
-Now imagine we wish to measure the signal-to-noise(SNR) ratio of a star. This is given by:
-$$
-    {\rm SNR} = \frac{Signal}{Noise}=\frac{N}{\sigma}=\sqrt{N}
-$$
-This equation only holds true if the only source of noise is due to the statistical fluctuations in the number of photons between exposures. However, when dealing with CCD detectors, we normally have:
-- The noise due to $S_0$ photo-electrons from the source, $\sigma_0=\sqrt S_0$
-- The noise due to $S_b$ photo-electrons from the background, $\sigma_b=\sqrt S_b$
-- The noise due to $S_d$ electrons caused by the thermal properties of the CCD, $\sigma_d=\sqrt S_d$.
-- A time independent readout out noise, $\sigma_R=R$. This is not a square root, and is the standard deviation in the number of electrons measured at the readout step.
-
-Let's assume all of these processes are independent, which allows us to say that the variance of the sum is the sum of the variances, $\sigma_{\rm Total}^2 = \sigma_0^2+\sigma_b^2+\sigma_d^2+\sigma_R^2$. As such, the noise term, $N=\sigma_{\rm Total}$, is given by
-$$
-    N = \sqrt{S_0+S_b+S_d+R^2}
-$$
-and thus the Signal-to-Noise ratio is given by
-$$
-    {\rm SNR} = \frac{S_0}{\sqrt{S_0+S_b+S_d+R^2}}.
-$$
-This is the most basic form of this equation, but it can become significantly more complicated. This is because the equation uses the number of electrons liberated in a pixel by incoming photons (which isn't necessarily a 1-1 conversion), while normally we have an estimate of the number of photons which we are expecting to arrive at our detector. Also, the total number of photons from the source are normally spread over several pixels, but the background is normally reported as photons/pixel - meaning you'd need to multiple $N_{b}$ by the number of pixels which $N_0$ is spread over to get the units right.
-
-There are 3 limiting cases for the basic form of the equation.
-
-1. **Object limited: $S_0 >> S_b,S_d,R^2$**.
-    In this case, the equation simplifies to ${\rm SNR}=\frac{S_0}{\sqrt S_0}=\sqrt {S_0}$. Since the number of counts detected, $S_0$, is proportional to time, then SNR $\propto \sqrt{t}$. This means you eventually get diminishing returns on increasing your exposure time. Additionally, $S_0$ is proportional to $D^2$, where D is the aperture of the telescope. As such, SNR $\propto D$.
-2. **Background limited: $S_b >> S_0,S_d,R^2$**
-    In this case, we get  ${\rm SNR}=\frac{S_0}{\sqrt S_b}$. Both $S_0$ and $S_b$ scale the same way with exposure time and telescope aperture, and the SNR scales the same as in the above. For fixed $S_0$, the SNR scales with the square root of the background signal - so if your background increases (because for example the moon rises), the SNR drops. This is important in determining when to observer your targets - can they withstand a bright moon, or do you need no moon at all?
-3. **Read noise limited: $R^2 >> S_0,S_b,S_d$**
-    Read noise is independent of exposure time, so this typically only occurs for short exposures. ${\rm SNR}=\frac{S_0}{R}$. In this regime, since $R$ is time independent, SNR scales linearly with time and with the square of the aperture.

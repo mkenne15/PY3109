@@ -1,3 +1,52 @@
+## Air mass & Extinction
+The Earth's atmosphere absorbs light, and the amount of light absorbed depends on the angle of the star above the horizon. If we didn't correct this effect, observations of objects at different times of night would give different magnitudes! We'll see how to correct for extinction below, but first we need to work out how extinction depends on the angle of the star above the horizon.
+
+We can derive a simple equation for the extinction correction by assuming the atmosphere is a series of thin plane-parallel layers. The figure below shows such a layer, of thickness dx at an altitude x. The path length through the layer for light from a star at a zenith distance $z$ is equal to $\frac{{\rm d}x}{\cos z}={\rm d}x \sec z$. The term $\sec z$ is known as the airmass, and is sometimes given the symbol $X$. 
+
+At the zenith, $X=\sec z=1$, and this increases to a value of 2 at a zenith distance of 60$^{\rm o}$. Note that the approximation of the atmosphere as being plane-parallel breaks down at larger zenith distances. Due to the amount of extinction, it's a bad idea to observe astronomical objects this low, so we shall not worry about the curvature of the atmosphere here.
+
+![Aberration_2](Figures/Airmass.svg)
+
+If the monochromatic flux from an object incident on the layer is $F_{\lambda}$ then the flux absorbed by the layer $dF_{\lambda}$ will be proportional to both $F_{\lambda}$ and the path length through the layer. Therefore:
+$$
+dF_{\lambda}=−\alpha_\lambda F_{\lambda} \sec z dx,
+$$
+
+where the constant of proportionality, $\alpha_\lambda$ is known as the absorption coefficient, with units of m$^{-1}$. The absorption coefficient is a function of the composition and density of the atmosphere, and hence the altitude of the layer, x. We can re-arrange this equation (and drop the $\lambda$ subscripts for clarity) to give
+$$
+\frac{dF}{F}=−\sec z \: \alpha \: dx.
+$$
+Integrating the equation above for x values from the top of the atmosphere, t, to the bottom b, we obtain
+$$
+\int ^b _t \frac{dF}{F} =−\sec z \: \int ^b _t \alpha \: dx.
+$$
+
+Hence
+$$
+\frac{F_b}{F_t}=\frac{F}{F_0}=\exp\left(−\sec z \: \int ^b _t \alpha \: dx\right)
+$$
+If you recall the definition of magnitude (from last year, but don't worry, we'll be going over it in the next lecture anyway), then we can say
+$$
+    m - m_0 = -2.5\log_{10}\left( \frac{F}{F_0} \right) = 2.5 \sec z \log_{10} (e) \int^b_t \alpha {\rm d} x
+$$
+We will now define, which is some constant.
+$$
+    k = 2.5 \log_{10} (e) \int^b_t \alpha {\rm d} x
+$$
+> [!important] This gives us a simple expression to correct for the amount of extinction which our system has experienced
+>$$
+>   m = m_0 + k \sec (z) = m_0 + k X
+>$$
+>$k$ is a constant that can be measured experimentally, and for the common observing filters, has values as given below.
+>
+| Filter | $\lambda_{\rm eff}$ (nm) | k (mags/airmass) |
+| ------ | ------------------------ | ---------------- |
+| U      | 360                      | 0.55             |
+| B      | 430                      | 0.25             |
+| V      | 550                      | 0.15             |
+| R      | 650                      | 0.09             |
+| I      | 820                      | 0.06             |
+
 # Proper Motion
 Next, we consider the effects of a stars proper motion across the night sky. Consider an observer, and a star with velocity **v** as shown below. In spherical coordinates, this velocity has two components - a radial component, $v_{\rm r}$, and an angular component $v_{\rm \theta}$. If we're tracking a stars position across the celestial sphere, then we are only measuring $v_{\rm \theta}$, which is known as the **transverse velocity**. Now, consider a time interval $\Delta t$. Over this time, an object will have moved a distance $\Delta d$ relative to our line of sight
 $$
@@ -48,11 +97,13 @@ By substituting $\cos[90^{\rm o}-(\delta+\Delta\delta)]=\sin(\delta+\Delta\delta
 $$
     \Delta\delta=\Delta\theta\cos\phi
 $$
-Cominbing this with the equation above gives
+Combining this with the equation above gives
 $$
     (\Delta\theta)^2=(\Delta\delta)^2+(\Delta\alpha\cos\delta)^2
 $$
 This gives a very handy expression for calculating the angular separation between two objects.
+
+As an example of why measuring proper motion and velocities is important, see [this paper on the "cannonball" pulsar](https://iopscience.iop.org/article/10.3847/2041-8213/ab18f7)
 
 # Distances, Magnitudes, and the Hertzsprung-Russell Diagram
 >[!info] How do we measure the distances to stars, and define how bright stars are? Once we know these parameters, what can they tell us about the structure of our Galaxy, and the hierarchy of stars?
@@ -85,55 +136,3 @@ A parallax measurement of 0.1-0.01" can be done from the ground under exceptiona
 >$$
 >For reference, GAIA is a space telescope which has achieved parallax measurements of $(1\times10^{-4})$". As such, it is capable of constraining the distances of objects which are up to 10 kpc away.
 
-## Flux and Magnitudes
-### Apparent Magnitude
-The term apparent magnitude comes from Hipparchus, who catalogued the visible stars. He assigned the brightest stars a magnitude of 1, and the faintest stars as a magnitude of 6. So, what does a magnitude actually represent?
-
-Assume we know the distance, $D$, to a star that has an intrinsic luminosity, $L$. This luminosity will be distributed over the surface area of a sphere, so the flux, $F$ a telescope at Earth will measure is given by
-$$
-    F=\frac{L}{4 \pi D^2}
-$$
-Normally astronomers don't quote fluxes, but instead work in magnitudes. The conversion is
-$$
-m=-2.5\log_{10}\left(\frac{F}{C}\right)
-$$
-where C is a normalising constant. Now, consider an an object which is 100 brighter than another object ($F_2=100F_1$). If we calculate $m_1-m_2$, we find that it is 5. This means that an object which is 100 times brighter will have a magnitude which is 5 less - the magnitude system is an inverted scale (the more positive a magnitude is, the fainter it is).
-
-The Sun has a magnitude of -27, while the faintest objects observable in the night sky have a magnitude of $\sim$ +30. The naked eye can see as faint as magnitude $+6$ if conditions are exceptional. **Apparent magnitudes** are typically written as $m$.
-
-### Vega system
-So how is the normalising constant in the above equation determined? Hipparchus had a pretty simple solution - he set the apparent magnitude of the star Vega to be 0. Hence, the difference in magnitudes between any star and Vega is given by
-$$
-\begin{align}
-m_{\rm star}-m_{\rm Vega}&=-2.5\log_{10}\left( \frac{F_{\rm star}}{F_{\rm Vega}}\right) \\
-m_{\rm star}-0&=-2.5\log_{10}\left( \frac{F_{\rm star}}{F_{\rm Vega}}\right) \\
-m_{\rm star}&=-2.5\log_{10}\left( \frac{F_{\rm star}}{F_{\rm Vega}}\right) \\
-\end{align}
-$$
-This gives that the constant in the equation should just be the measured flux from Vega. However, there's a slight problem with this system.
-
-**Observing Filters**
-If we measured the flux ($F=\int_0^{\infty} F_{\rm \lambda} d\lambda$) coming from a star across the entire electromagnetic spectrum, the magnitudes we calculate are called **bolometric magnitudes**. This is a very difficult quantity to measure (for various reasons, including Earth's atmosphere absorbing a lot of incoming radiation and the difficulties in detecting particular wavelengths of light).
-
-Instead stars are typically observed using different filters, which cover different parts of the spectrum. The below figure shows the sensitivity curves ($S$) for the SDSS (Sloan Digital Sky Survey) filters.
-
-![SDSS_filters](Figures/Response_Curves.png)
-
-These transmission curves tell us which part of the spectrum we are sensitive too when using them. For example, when using the $u$ filter, we are sensitive to light from $\sim 3000-4000$ Å. 
-
-As such, the u-band magnitude of the source, $m_u \equiv u$, is given by 
-
-$$
-    u=-2.5\log_{10}\left(\frac{\int_0^{\infty} S_u F_{\rm \lambda} d\lambda}{C_u}\right)\\
-    u=-2.5\log_{10}\left(\int_0^{\infty} S_u F_{\rm \lambda} d\lambda\right)+C_u
-$$
-
-Here, $C_u$ is a constant for the u band filter. Similar constants ($C_g$,$C_r$,$C_i$,$C_z$) exist for each band ($g$,$r$,$i$,$z$).
-
-Let's now return to the problem of determining these constants, by again considering the Vega system. Vega is a type A0V star with a surface temperature of ~9500 K (varying between the poles and the equator). The blackbody spectrum of a 9500 K star is shown below, split up into the 5 filters discussed above.
-![Vega|500](Figures/Vega_Spectrum.png)
-
-The integrated flux ($\int_0^{\infty} S_u F_{\rm \lambda} d\lambda$) of Vega in each of these filters is $F_{\rm u}=4.18\times10^{-09} \rm {\: W \: / m^2}$, $F_{\rm g}=5.71\times10^{-09} \rm {\: W \: / m^2}$,  $F_{\rm r}=3.09\times10^{-09} \rm {\: W \: / m^2}$,  $F_{\rm i}=1.91\times10^{-09} \rm {\: W \: / m^2}$, and $F_{\rm z}=4.18\times10^{-09} \rm {\: W \: / m^2}$ - that is, the constant changes depending on which band you are focusing on because the spectrum of Vega varies with wavelength. Note that I've presented the constants here as if you are measuring the flux per filter. Often, astronomers work in flux densities (either per unit wavelength or per unit frequency) as this number is more easily comparable across different filters. But this comes with it's own challenges, as frequency and wavelength are inversely proportional, so moving between them can cause confusion. Also note that the constants I've calculated above will differ from the correct ones - this is because the spectrum of Vega is much more complicated that that of a black body due to the presence of absorption lines and a varying surface temperature.
-
-There is a more logical system which does not rely on the spectrum of a star. In the **AB** system, which the SDSS filters traditionally use, the constants are chosen such that a star with magnitude 0 has a flux density of 3.631$\times10^{-20}$ erg cm$^{-2}$ s$^{-1}$ Hz$^{-1}$ - that is, the spectrum in terms of frequency is flat. This is nice because as long as you are working in units of flux density per unit frequency, the constant is always the same. However, when you move to working in flux density per unit wavelength, the frequency follows a $\frac{1}{\lambda^2}$ behaviour because of the previously mentioned conversion, so it really only works nicely if you're working in flux density of per unit frequency (which most modern astronomers do!).
-![AB|600](Figures/AB_spectrum.png)

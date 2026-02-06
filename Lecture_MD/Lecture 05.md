@@ -1,3 +1,57 @@
+## Flux and Magnitudes
+
+### Apparent Magnitude
+The term apparent magnitude comes from Hipparchus, who catalogued the visible stars. He assigned the brightest stars a magnitude of 1, and the faintest stars as a magnitude of 6. So, what does a magnitude actually represent?
+
+Assume we know the distance, $D$, to a star that has an intrinsic luminosity, $L$. This luminosity will be distributed over the surface area of a sphere, so the flux, $F$ a telescope at Earth will measure is given by
+$$
+    F=\frac{L}{4 \pi D^2}
+$$
+Normally astronomers don't quote fluxes, but instead work in magnitudes. The conversion is
+$$
+m=-2.5\log_{10}\left(\frac{F}{C}\right)
+$$
+where C is a normalising constant. Now, consider an an object which is 100 brighter than another object ($F_2=100F_1$). If we calculate $m_1-m_2$, we find that it is 5. This means that an object which is 100 times brighter will have a magnitude which is 5 less - the magnitude system is an inverted scale (the more positive a magnitude is, the fainter it is).
+
+The Sun has a magnitude of -27, while the faintest objects observable in the night sky have a magnitude of $\sim$ +30. The naked eye can see as faint as magnitude $+6$ if conditions are exceptional. **Apparent magnitudes** are typically written as $m$.
+
+### Vega system
+So how is the normalising constant in the above equation determined? Hipparchus had a pretty simple solution - he set the apparent magnitude of the star Vega to be 0. Hence, the difference in magnitudes between any star and Vega is given by
+$$
+\begin{align}
+m_{\rm star}-m_{\rm Vega}&=-2.5\log_{10}\left( \frac{F_{\rm star}}{F_{\rm Vega}}\right) \\
+m_{\rm star}-0&=-2.5\log_{10}\left( \frac{F_{\rm star}}{F_{\rm Vega}}\right) \\
+m_{\rm star}&=-2.5\log_{10}\left( \frac{F_{\rm star}}{F_{\rm Vega}}\right) \\
+\end{align}
+$$
+This gives that the constant in the equation should just be the measured flux from Vega. However, there's a slight problem with this system.
+
+**Observing Filters**
+If we measured the flux ($F=\int_0^{\infty} F_{\rm \lambda} d\lambda$) coming from a star across the entire electromagnetic spectrum, the magnitudes we calculate are called **bolometric magnitudes**. This is a very difficult quantity to measure (for various reasons, including Earth's atmosphere absorbing a lot of incoming radiation and the difficulties in detecting particular wavelengths of light).
+
+Instead stars are typically observed using different filters, which cover different parts of the spectrum. The below figure shows the sensitivity curves ($S$) for the SDSS (Sloan Digital Sky Survey) filters.
+
+![SDSS_filters](Figures/Response_Curves.png)
+
+These transmission curves tell us which part of the spectrum we are sensitive too when using them. For example, when using the $u$ filter, we are sensitive to light from $\sim 3000-4000$ Å. 
+
+As such, the u-band magnitude of the source, $m_u \equiv u$, is given by 
+
+$$
+    u=-2.5\log_{10}\left(\frac{\int_0^{\infty} S_u F_{\rm \lambda} d\lambda}{C_u}\right)\\
+    u=-2.5\log_{10}\left(\int_0^{\infty} S_u F_{\rm \lambda} d\lambda\right)+C_u
+$$
+
+Here, $C_u$ is a constant for the u band filter. Similar constants ($C_g$,$C_r$,$C_i$,$C_z$) exist for each band ($g$,$r$,$i$,$z$).
+
+Let's now return to the problem of determining these constants, by again considering the Vega system. Vega is a type A0V star with a surface temperature of ~9500 K (varying between the poles and the equator). The blackbody spectrum of a 9500 K star is shown below, split up into the 5 filters discussed above.
+![Vega|500](Figures/Vega_Spectrum.png)
+
+The integrated flux ($\int_0^{\infty} S_u F_{\rm \lambda} d\lambda$) of Vega in each of these filters is $F_{\rm u}=4.18\times10^{-09} \rm {\: W \: / m^2}$, $F_{\rm g}=5.71\times10^{-09} \rm {\: W \: / m^2}$,  $F_{\rm r}=3.09\times10^{-09} \rm {\: W \: / m^2}$,  $F_{\rm i}=1.91\times10^{-09} \rm {\: W \: / m^2}$, and $F_{\rm z}=4.18\times10^{-09} \rm {\: W \: / m^2}$ - that is, the constant changes depending on which band you are focusing on because the spectrum of Vega varies with wavelength. Note that I've presented the constants here as if you are measuring the flux per filter. Often, astronomers work in flux densities (either per unit wavelength or per unit frequency) as this number is more easily comparable across different filters. But this comes with it's own challenges, as frequency and wavelength are inversely proportional, so moving between them can cause confusion. Also note that the constants I've calculated above will differ from the correct ones - this is because the spectrum of Vega is much more complicated that that of a black body due to the presence of absorption lines and a varying surface temperature.
+
+There is a more logical system which does not rely on the spectrum of a star. In the **AB** system, which the SDSS filters traditionally use, the constants are chosen such that a star with magnitude 0 has a flux density of 3.631$\times10^{-20}$ erg cm$^{-2}$ s$^{-1}$ Hz$^{-1}$ - that is, the spectrum in terms of frequency is flat. This is nice because as long as you are working in units of flux density per unit frequency, the constant is always the same. However, when you move to working in flux density per unit wavelength, the frequency follows a $\frac{1}{\lambda^2}$ behaviour because of the previously mentioned conversion, so it really only works nicely if you're working in flux density of per unit frequency (which most modern astronomers do!).
+![AB|600](Figures/AB_spectrum.png)
+
 # Optics and Telescopes
 > [!tip] What's the minium distance between two objects which can individually resolved, and how do optical telescopes work?
 
@@ -23,57 +77,3 @@ $$
 
 
  Often photographers refer to the focal ratio, $f$, which is $F/D$. If we fix $F$ , the image scale remains the same. For a smaller $D$, less light is spread over the same area; the image gets dimmer. We would have to expose for longer to get the same amount of light in a given area. Therefore, large values of $f$ imply slow telescopes, and vice-versa.
-## Fraunhofer diffraction
-Recall from your optics lecture that a wave with wavelength $\lambda$ which passes through a slit of width $a$, where $a$>>$\lambda$, will produce a pattern given by:
-$$
-    I = I_0 \frac{\sin^2(\frac{\pi a \sin(\theta)}{\lambda})}{\left[\frac{\pi a \sin(\theta)}{\lambda}\right]^2}
-$$
-This is shown in the below figure. This pattern has recurring minima at $\sin\theta=\frac{m\lambda}{a}$ where m is an integer. *(Aside: The interesting thing here is to think about what the mathematical relationship between the slit (which is a boxcar function) and the intensity is. The Fourier transform of a boxcar is a sinc, and our function is a sinc$^2$. This is a branch of optics known as Fourier optics, which allows us to use Fourier methods to establish what various optical elements are doing.*
-
-![SingleSlit](Figures/Single_Slit.svg)
-
-If the slit is 2 dimensional, like the aperture of a telescope, then the pattern produced is this function rotated around its axis, and is called an Airy Disc. In this case, the difference between the minima can still be given by $\sin\theta=\frac{m\lambda}{a}$, but m is no longer integer. The first minimum occurs when $m=1.22$ (the derivation is tough and beyond the scope of this module).
-
-![AiryDisc](Figures/Airy_discs.png)
-So, if we have 2 sources in our image, they will both produce Airy Discs. In order to not have their primary peaks overlapping, we want their angular separation to be:
-$$
-\sin\theta>\frac{1.22\lambda}{a}
-$$
-or, for small angles
-$$
-\theta>\frac{1.22\lambda}{a}.
-$$
-This is the Rayleigh criteria, and is very important when considering what wavelength to observer your source at.
-
-> [!example] Example: A 10m optical telescope
-> For a 10m aperture optical telescope (observing at $\lambda=5000$Å) we find that    
->$$
->   \theta=\frac{1.22\times0.5\mu m}{10m}=0.01{\rm''}
->$$
->Again, this is much smaller than the seeing we're used because of Earth's atmosphere. As such, it makes sense to put optical telescopes into space where they can make full use of their resolution. For example, consider the HST. It's mirror is 2.5 meters in diameter so $\theta=0.05{\rm''}$.
-
-# Telescope Designs
-
-## Refractors
-The first telescopes used lenses to focus starlight. While they were dominant in astronomy from centuries, they come with certain limitations. Mainly:
-1. The refractive index of the lens is wavelength dependent, meaning bluer wavelengths would be focused at a different point then redder wavelengths (see below). This chromatic aberration can be minimised by placing the detector at the circle of least confusion (see below) or by adding corrector lenses behind the mirror - but this is expensive and requires incredibly precision.
-2. The mirrors are heavy and distort when not pointing directly upwards.
-3. Their size does not scale well. If you want a high resolution image, you must increase the focal length of your telescope - but in order to keep the telescope "fast", you also need to increase the diameter of your mirror. This means that even modest sized refractors have very long focal lengths - which means the telescopes are massive, and the domes vast chambers (also see below). For example, the largest refractor ever built (the Yerkes telescope, 1897) is a 1 meter diameter telescope with a 19.3 meter focus - but the dome required to house it is 27 meters in diameter.
-
-![Refractor](Figures/Refractor.svg)
-![[Yerkes.jpg]]
-# Reflectors
-Towards the end of the 19th century, reflecting telescopes began to become very popular due to several breakthroughs in increasing the reflectivity of mirrors and reducing the upkeep required on them. They are not without their own flaws - the chief one being that the mirror must be parabolic rather than spherical, and parabolic mirrors require incredible precision (for example, HST was sent up with a bad mirror that led to horrible spherical aberration which needed to be corrected by STS-61).
-
-![[HST.gif]]
-
-All modern telescopes used for science are reflectors - but as opposed to refractors (where you can only really have the eye piece/instruments) at the end of the tube, reflectors can have different designs and different numbers of mirrors. Below I show three of the most popular.
-
-![Telescopes](Figures/Optics_Designs.svg)
-
-1. The prime focus telescope has a single mirror which focuses light at a point close to the top of the telescope. It's relatively cheap in that you only need one mirror, but access to the instrument box is difficult (and used to lead to astronomers spending the entire night in the cage).
-2. The Newtonian uses a flat mirror close to the top of the tube to pick off the focused starlight and send it out to a focus on the side of the telescope. This is definitely better than the prime focus as it allows for *slightly* easier access to the instruments, but it leads to weight and balance issues on very large telescopes with very heavy instruments.
-3. The Cassigrian uses a small secondary mirror to send light back down through a hole in the primary mirror. This is great as the instruments are easily accessible and the telescope suffers less balance issues (but does mean you have a hole in your telescope), but the field of view isn't particularly large (and there are still issues with targets that are significantly off axis).
-![[Hale_Cage.jpg]]
-
-You can also add more mirrors to the Cassigrian design to pick off light and send it to instrument boxes on either side of the telescope. These folded Cass designs are very common on large telescopes as it means you can have multiple instruments mounted at once, and switching between them requires only moving one mirror. You can see a complicated example of a folded Cass design in this video for the [ELT](https://youtu.be/aqfLGrpOjjY). You can also combine lenses and mirrors (Schmidt-Cassegrian telescopes) or use two hyperbolic mirrors (Ritchey-Chretien reflectors).
